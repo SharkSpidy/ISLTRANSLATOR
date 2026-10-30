@@ -1,0 +1,10 @@
+# Use Python 3.10 or 3.11. TensorFlow 2.15 / Keras 2 is pinned on purpose:
+# Teachable Machine .h5 files fail to load on Keras 3 (DepthwiseConv2D "groups" error).
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29,<1.0
+websockets>=12.0
+opencv-python>=4.9,<5.0
+numpy>=1.26
+cvzone==1.6.1
+mediapipe==0.10.14
+tensorflow==2.16.1

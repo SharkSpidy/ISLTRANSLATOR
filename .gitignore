@@ -1,0 +1,32 @@
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+backend/.venv/
+backend/venv/
+venv/
+env/
+
+# Local model exports
+backend/model/keras_model.h5
+backend/model/labels.txt
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
